@@ -1,0 +1,89 @@
+ html {
+  font-size: 17px;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background: #88deec;
+}
+
+p {
+  font-size: 2rem;
+  margin-bottom: -10px !important;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+small {
+  font-weight: lighter;
+  color: gray;
+  margin: 0;
+}
+/*
+.flex {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+*/
+.App {
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  width: 19rem;
+  margin: 20vh auto;
+  box-shadow: 15px 20px 70px -10px #888888;
+  background: #f4e882;
+}
+
+
+.input-range__label--max {
+  display: none;
+}
+
+.input-range__label--min {
+  display: none;
+}
+
+.input-range__label-container {
+  left: -50%;
+  position: relative;
+  display: none;
+}
+
+/* .App{
+  float:left;
+} */
+
+.sidebar-container{
+  float:left;
+  margin-top: -422px;
+  width: 28%;
+  height: 28%;
+  overflow: visible;
+}
+
+.record-box{
+  background: #f4e882;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.sidebar-component{
+  margin-top: -98px;
+}
+
+.submit-button{
+  background-color: #008CBA; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;background-color: #008CBA;
+}
